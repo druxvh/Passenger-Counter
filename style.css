@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     border: border-box;
-    /* background-color: #121212;
+    background-color: #151515;
     color: #CCCCCC;
-    border: 1px solid red; */
+    /* border: 1px solid red; */
 
 }
 body{
@@ -33,4 +33,16 @@ button{
 }
 #inc-btn{
     background-color: red;
+}
+#save{
+    background-color: green;
+}
+
+p {
+    display: none;
+    width: 400px;
+    height: 200px;
+    background-color: #CCCCCC;
+    color: black;
+    font-size: 1rem;
 }

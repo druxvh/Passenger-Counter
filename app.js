@@ -1,6 +1,13 @@
 let count = 0;
 let counter = document.getElementById("counter");
+let save = document.getElementById("save")
 
+// let welcome_el = document.getElementById("welcome_el")
+// let name = "Dhruv"
+// let greeting = "Welcome Back, "
+// let emoji = "👍👍"
+
+// welcome_el.innerText = greeting + name + emoji
 
 
 function inc() {
@@ -10,4 +17,6 @@ function inc() {
     console.log(count);
  }
 
- 
+function save() {
+    console.log(count)
+}

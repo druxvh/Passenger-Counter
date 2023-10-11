@@ -1,6 +1,7 @@
 let count = 0;
 let counter = document.getElementById("counter");
-let save = document.getElementById("save")
+let entries = document.getElementById("prevEnt");
+// let save = document.getElementById("save")
 
 // let welcome_el = document.getElementById("welcome_el")
 // let name = "Dhruv"
@@ -17,6 +18,13 @@ function inc() {
     console.log(count);
  }
 
-function save() {
+function save(){
+    let countStr = count + " - "
+    entries.textContent += countStr    // entries.textContent = entries.textContent + count + "-"
     console.log(count)
+}
+
+function reset(){
+    count = 0;
+    counter.innerText= count
 }

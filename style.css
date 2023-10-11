@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     border: border-box;
-    background-color: #151515;
-    color: #CCCCCC;
+    background-color: hsl(0, 0%, 8%);
+    /* color: #CCCCCC; */
     /* border: 1px solid red; */
 
 }
@@ -32,17 +32,26 @@ button{
 
 }
 #inc-btn{
-    background-color: red;
+    background-color: rgb(51, 32, 217);
 }
-#save{
+#save-btn{
     background-color: green;
 }
+#reset-btn {
+    background-color: rgb(236, 19, 19);
+}
 
-p {
+/* p {
     display: none;
     width: 400px;
     height: 200px;
     background-color: #CCCCCC;
     color: black;
     font-size: 1rem;
+} */
+
+#prevEnt , h1, h2 {
+    
+    color: white;
+
 }

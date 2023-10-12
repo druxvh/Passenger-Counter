@@ -23,7 +23,7 @@ function save(){
     entries.textContent += countStr    // entries.textContent = entries.textContent + count + "-"
     console.log(count)
 }
-
+//Reset Function
 function reset(){
     count = 0;
     counter.innerText= count
